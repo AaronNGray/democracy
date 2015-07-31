@@ -21,7 +21,11 @@ body {
   text-align: left;
   margin-left: 50px;
   margin-right: 50px;
-  border: solid 1px;
+  //border: solid 1px;
+}
+
+#loginForm {
+  text-align: center;
 }
 
 table {
@@ -47,6 +51,8 @@ div {
 
 textarea {
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   border-radius: 10px;
   border: 1px dashed grey;
   width: 100%;
